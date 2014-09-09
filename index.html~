@@ -7,7 +7,7 @@
           <meta name="Description" content="辽宁省鞍山市台安重型汽贸"/>
           <script src="http://lanyuzq.github.io/zq/js/jquery-2.0.3.min.js"></script>
           <script src="http://lanyuzq.github.io/zq/js/zhong.js"></script>
-          <link rel="stylesheet" type="text/css" href="http://lanyuzq.github.io/zq/css/zhong.css"/>
+          <link rel="stylesheet" href="http://lanyuzq.github.io/zq/css/zhong.css"/>
      </head>
      <body>
           <header>
