@@ -1,13 +1,32 @@
-{% extends "zhongBase.html" %}  
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>辽宁省鞍山市台安重型汽贸</title>
+          <meta charset="utf-8"/>
+          <meta name="Keywords" content="辽宁省鞍山市台安重型汽贸"/>
+          <meta name="Description" content="辽宁省鞍山市台安重型汽贸"/>
+          <script src="{{STATIC_URL}}js/jquery-2.0.3.min.js"></script>
+          <script src="{{STATIC_URL}}js/zhong.js"></script>
+          <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/zhong.css"/>
+     </head>
+     <body>
+          <header>
+                 <div id="name">台安重型汽贸</div>
+                 <nav>
+                     <ul>
+                        <a href="http://lanyuzq.github.io/zq/shan"><li>陕汽系列</li></a>
+                        <a href="http://lanyuzq.github.io/zq/ou"><li>欧曼系列</li></a>
+                        <a href="http://lanyuzq.github.io/zq/zhong"><li>解放系列</li></a>
+                        <a href="http://lanyuzq.github.io/zq/other/"><li>其它系列</li></a>
+                        <a href="http://lanyuzq.github.io/zq/vi/"><li>视频</li></a>
+                        <a href="http://lanyuzq.github.io/zq/news"><li>活动新闻</li></a>
+                        <a href="http://lanyuzq.github.io/zq/us"><li>关于我们</li></a>   
+                     </ul>
+                 </nav>
+          </header>
 
-{% block css %}
-   <style>
-         footer{margin-top:16px;}
-   </style>
-{% endblock %}
-
-{% block content %}
-   <div id="tai">
+          <section>
+                     <div id="tai">
    </div>
    <div id="big">
         <div id="close">&nbsp;关闭</div>
@@ -28,26 +47,26 @@
         }
           var cDiv=$("<div style='clear:both;'></div>");          
           $('#tai').append(cDiv);
-          var scale=[$(window).width()]/1353;
-          $('#tai').css('width',1050*scale);
-          $('.im').css('width',320*scale);
-          $('.im').css('height',215*scale);
-          $('.im').css('padding',4*scale);
-          $('.im').css('margin-left',16*scale);
-          $('.im').css('margin-top',16*scale);
-          $('.imgS').css('width',320*scale);
-          $('.imgS').css('height',180*scale);
+          var s=[$(window).width()]/1353;
+          $('#tai').css('width',1050*s);
+          $('.im').css('width',320*s);
+          $('.im').css('height',215*s);
+          $('.im').css('padding',4*s);
+          $('.im').css('margin-left',16*s);
+          $('.im').css('margin-top',16*s);
+          $('.imgS').css('width',320*s);
+          $('.imgS').css('height',180*s);
           $('.im').click(function(){
               var g=$(this).attr('id');
               var oImg=$("<img class='imgBig' src='{{MEDIA_URL}}image/zhongZhong/"+g+".jpg'/>");
               $('#big img').remove();
               $('#big').append(oImg);
-              $('#big').css('width',900*scale);
-              $('#big').css('height',506*scale);
-              $('#big').css('margin-left',-460*scale);
-              $('#big').css('margin-top',-253*scale);
-              $('.imgBig').css('width',900*scale);
-              $('.imgBig').css('height',506*scale);
+              $('#big').css('width',900*s);
+              $('#big').css('height',506*s);
+              $('#big').css('margin-left',-460*s);
+              $('#big').css('margin-top',-253*s);
+              $('.imgBig').css('width',900*s);
+              $('.imgBig').css('height',506*s);
               $('#big').fadeIn(500);
               $('.im').fadeTo(400,0.2);});
 
@@ -59,4 +78,15 @@
 </script>
 
 
-{% endblock %}
+                  <div id="clear"></div>
+          </section>
+
+          <footer>
+                 <span id="span1">地址：台安镇</span>
+                 <span id="span2">电话：4822224</span>
+          </footer>
+
+     </body>
+</html>
+
+
