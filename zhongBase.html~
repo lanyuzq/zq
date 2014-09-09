@@ -22,8 +22,7 @@
                         <a href="/zhongOther/"><li>其它系列</li></a>
                         <a href="/zhongVi/"><li>视频</li></a>
                         <a href="/zhongNews/"><li>活动新闻</li></a>
-                        <a href="/zhongUs/"><li>关于我们</li></a>
-                        <a href="/mode/"><li id="fan">返回</li></a>   
+                        <a href="/zhongUs/"><li>关于我们</li></a>   
                      </ul>
                  </nav>
           </header>
