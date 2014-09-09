@@ -5,9 +5,9 @@
           <meta charset="utf-8"/>
           <meta name="Keywords" content="辽宁省鞍山市台安重型汽贸"/>
           <meta name="Description" content="辽宁省鞍山市台安重型汽贸"/>
-          <script src="{{STATIC_URL}}js/jquery-2.0.3.min.js"></script>
-          <script src="{{STATIC_URL}}js/zhong.js"></script>
-          <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/zhong.css"/>
+          <script src="http://lanyuzq.github.io/zq/js/jquery-2.0.3.min.js"></script>
+          <script src="http://lanyuzq.github.io/zq/js/zhong.js"></script>
+          <link rel="stylesheet" href="http://lanyuzq.github.io/zq/css/zhong.css"/>
      </head>
      <body>
           <header>
@@ -76,7 +76,6 @@
        })    
 
 </script>
-
 
                   <div id="clear"></div>
           </section>
