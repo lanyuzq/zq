@@ -26,15 +26,13 @@
           </header>
 
           <section>
-                     <div id="tai">
-   </div>
-   <div id="big">
-        <div id="close">&nbsp;关闭</div>
-   </div>
+            <div id="tai"></div>
+            <div id="big">
+              <div id="close">&nbsp;关闭</div>
+            </div>
 
 <script>
-    $(
-      function(){
+    $(function(){
         var arr=new Array('台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸');
 
         for(var i=1;i<13;i++)
@@ -70,9 +68,10 @@
               $('#big').fadeIn(500);
               $('.im').fadeTo(400,0.2);});
 
-          $('#close').click(function(){
+              $('#close').click(function(){
               $('#big').hide();
-              $('.im').fadeTo(400,1.0);});
+              $('.im').fadeTo(400,1.0);
+          });
        })    
 
 </script>
