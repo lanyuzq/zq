@@ -31,8 +31,8 @@
               <source src="{{MEDIA_URL}}video/zhong.mp4" type="video/mp4" />
               您的浏览器不支持 video 标签,请用火狐,谷歌,360等浏览器。   
             </video>
-   <script>
-          $(function(){
+      <script>
+          $(function(){   
             var w=915*[$(window).width()]/1364,h=w*9/16;
             $('video').css('width',w);
             $('video').css('height',h);
@@ -40,7 +40,7 @@
             $('video').css('margin-top',top1);
             $('section').css('height',($(window).height()-119));
             })
-   </script>
+      </script>
                   <div id="clear"></div>
           </section>
           <footer>
