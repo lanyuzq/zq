@@ -16,7 +16,7 @@
                      <ul>
                         <a href="http://lanyuzq.github.io/zq/shan"><li>陕汽系列</li></a>
                         <a href="http://lanyuzq.github.io/zq/ou"><li>欧曼系列</li></a>
-                        <a href="http://lanyuzq.github.io/zq/zhong"><li>解放系列</li></a>
+                        <a href="http://lanyuzq.github.io/zq/jie"><li>解放系列</li></a>
                         <a href="http://lanyuzq.github.io/zq/other"><li>其它系列</li></a>
                         <a href="http://lanyuzq.github.io/zq/vi"><li>视频</li></a>
                         <a href="http://lanyuzq.github.io/zq/news"><li>活动新闻</li></a>
@@ -38,7 +38,7 @@
         for(var i=1;i<13;i++)
         {
           var oDiv=$("<div id='big"+i+"' class='im' style='float:left;background:#ffffff;'></div>");
-          var oImg=$("<img class='imgS' src='http://lanyuzq.github.io/zq/image/zhong/big"+i+".jpg'/>");
+          var oImg=$("<img class='imgS' src='http://lanyuzq.github.io/zq/image/jie/big"+i+".jpg'/>");
           oDiv.append(oImg);
           oDiv.append(arr[i-1]);
           $('#tai').append(oDiv);
@@ -56,7 +56,7 @@
           $('.imgS').css('height',180*s);
           $('.im').click(function(){
               var g=$(this).attr('id');
-              var oImg=$("<img class='imgBig' src='http://lanyuzq.github.io/zq/image/zhong/"+g+".jpg'/>");
+              var oImg=$("<img class='imgBig' src='http://lanyuzq.github.io/zq/image/jie/"+g+".jpg'/>");
               $('#big img').remove();
               $('#big').append(oImg);
               $('#big').css('width',900*s);
