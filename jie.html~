@@ -14,13 +14,12 @@
                  <div id="name">台安重型汽贸</div>
                  <nav>
                      <ul>
-                        <a href="http://lanyuzq.github.io/zq/shou"><li>网站首页</li></a>
                         <a href="http://lanyuzq.github.io/zq/shan"><li>陕汽系列</li></a>
                         <a href="http://lanyuzq.github.io/zq/ou"><li>欧曼系列</li></a>
                         <a href="http://lanyuzq.github.io/zq/jie"><li>解放系列</li></a>
                         <a href="http://lanyuzq.github.io/zq/other"><li>其它系列</li></a>
                         <a href="http://lanyuzq.github.io/zq/vi"><li>视频</li></a>
-                        <a href="http://lanyuzq.github.io/zq/news"><li>活动新闻</li></a>   
+                        <a href="http://lanyuzq.github.io/zq/news"><li>活动新闻</li></a>
                      </ul>
                  </nav>
           </header>
@@ -31,42 +30,60 @@
               <div id="close">&nbsp;关闭</div>
             </div>
 
-   <script>
+<script>
     $(function(){
         var arr=new Array('台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸');
 
-        for(var i=1;i<22;i++){
-          var oDiv=$("<div id='big"+i+"' class='im' style='float:left;width:320px;height:215px;padding:5px;margin-left:16px;margin-top:16px;background:#ffffff;'></div>");
-          var oImg=$("<img src='http://lanyuzq.github.io/zq/image/other/s"+i+".jpg'/>");
+        for(var i=1;i<13;i++)
+        {
+          var oDiv=$("<div id='big"+i+"' class='im' style='float:left;background:#ffffff;'></div>");
+          var oImg=$("<img class='imgS' src='http://lanyuzq.github.io/zq/image/jie/big"+i+".jpg'/>");
           oDiv.append(oImg);
           oDiv.append(arr[i-1]);
           $('#tai').append(oDiv);
         }
           var cDiv=$("<div style='clear:both;'></div>");          
           $('#tai').append(cDiv);
+          var s=[$(window).width()]/1353;
+          $('#tai').css('width',1050*s);
+          $('.im').css('width',320*s);
+          $('.im').css('height',215*s);
+          $('.im').css('padding',4*s);
+          $('.im').css('margin-left',16*s);
+          $('.im').css('margin-top',16*s);
+          $('.imgS').css('width',320*s);
+          $('.imgS').css('height',180*s);
           $('.im').click(function(){
-            var g=$(this).attr('id');
-            var oImg=$("<img src='http://lanyuzq.github.io/zq/image/other/"+g+".jpg'/>");
-            $('#big img').remove();
-            $('#big').append(oImg);
-            $('#big').fadeIn(500);});
-            $('#close').click(function(){
-            $('#big').hide();
-           });
+              var g=$(this).attr('id');
+              var oImg=$("<img class='imgBig' src='http://lanyuzq.github.io/zq/image/jie/"+g+".jpg'/>");
+              $('#big img').remove();
+              $('#big').append(oImg);
+              $('#big').css('width',900*s);
+              $('#big').css('height',506*s);
+              $('#big').css('margin-left',-460*s);
+              $('#big').css('margin-top',-253*s);
+              $('.imgBig').css('width',900*s);
+              $('.imgBig').css('height',506*s);
+              $('#big').fadeIn(500);
+              $('.im').fadeTo(400,0.2);});
+
+              $('#close').click(function(){
+              $('#big').hide();
+              $('.im').fadeTo(400,1.0);
+          });
        })    
 
-       </script>
+</script>
 
-            <div id="clear"></div>
+                  <div id="clear"></div>
           </section>
 
           <footer>
                  <span id="span1">地址：台安镇</span>
                  <span id="span2">电话：4822224</span>
           </footer>
+
      </body>
 </html>
-
-
 
 

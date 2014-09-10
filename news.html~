@@ -14,38 +14,29 @@
                  <div id="name">台安重型汽贸</div>
                  <nav>
                      <ul>
-                        <a href="http://lanyuzq.github.io/zq/shou"><li>网站首页</li></a>
                         <a href="http://lanyuzq.github.io/zq/shan"><li>陕汽系列</li></a>
                         <a href="http://lanyuzq.github.io/zq/ou"><li>欧曼系列</li></a>
                         <a href="http://lanyuzq.github.io/zq/jie"><li>解放系列</li></a>
                         <a href="http://lanyuzq.github.io/zq/other"><li>其它系列</li></a>
                         <a href="http://lanyuzq.github.io/zq/vi"><li>视频</li></a>
-                        <a href="http://lanyuzq.github.io/zq/news"><li>活动新闻</li></a>                 
+                        <a href="http://lanyuzq.github.io/zq/news"><li>活动新闻</li></a>   
                      </ul>
                  </nav>
           </header>
 
           <section>
-            <div id="div1"><img src="http://lanyuzq.github.io/zq/image/index/a.jpg"/></div>
-            <div id="div2"><img src="http://lanyuzq.github.io/zq/image/index/b.jpg"/></div>
-            <div id="div3"><img src="http://lanyuzq.github.io/zq/image/index/c.jpg"/></div>
-            <script>
-              $(function(){
-                var w=$(window).width(),h=$(window).height()-119;
-                $('#div1,#div2,#div3').css('width',w);
-                $('#div1,#div2,#div3').css('height',h);
-                $('img').css('width',w);
-                $('img').css('height',h);
-              })
-            </script>
-
-            <div id="clear"></div>
+                  <div id="divUs">
+                    <br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;台安重型汽贸 
+                  </div>
+                  <div id="clear"></div>
           </section>
 
           <footer>
                  <span id="span1">地址：台安镇</span>
                  <span id="span2">电话：4822224</span>
-          </footer> 
+          </footer>
 
      </body>
 </html>
+
+
