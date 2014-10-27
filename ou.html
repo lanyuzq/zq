@@ -12,7 +12,7 @@ layout: base
 
         for(var i=1;i<13;i++){
           var oDiv=$("<div id='big"+i+"' class='im' style='float:left;background:#ffffff;'></div>");
-          var oImg=$("<img class='imgS' src='/zq/image/ou/big"+i+".jpg'/>");
+          var oImg=$("<img class='imgS' src='{{ site.url }}/image/ou/big"+i+".jpg'/>");
           oDiv.append(oImg);
           oDiv.append(arr[i-1]);
           $('#tai').append(oDiv);
@@ -30,7 +30,7 @@ layout: base
           $('.imgS').css('height',180*s);
           $('.im').click(function(){
             var g=$(this).attr('id');
-            var oImg=$("<img class='imgBig' src='/zq/image/ou/"+g+".jpg'/>");
+            var oImg=$("<img class='imgBig' src='{{ site.url }}/image/ou/"+g+".jpg'/>");
             $('#big img').remove();
             $('#big').append(oImg);
             $('#big').css('width',900*s);
