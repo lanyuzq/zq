@@ -1,34 +1,9 @@
-<!DOCTYPE html>
-<html>
-     <head>
-          <title>辽宁省鞍山市台安重型汽贸</title>
-          <meta charset="utf-8"/>
-          <meta name="Keywords" content="辽宁省鞍山市台安重型汽贸"/>
-          <meta name="Description" content="辽宁省鞍山市台安重型汽贸"/>
-          <script src="http://lanyuzq.github.io/zq/js/jquery-2.0.3.min.js"></script>
-          <script src="http://lanyuzq.github.io/zq/js/zhong.js"></script>
-          <link rel="stylesheet" href="http://lanyuzq.github.io/zq/css/zhong.css"/>
-     </head>
-     <body>
-          <header>
-                 <div id="name">台安重型汽贸</div>
-                 <nav>
-                     <ul>
-                        <a href="http://lanyuzq.github.io/zq/shou"><li>网站首页</li></a>
-                        <a href="http://lanyuzq.github.io/zq/shan"><li>陕汽系列</li></a>
-                        <a href="http://lanyuzq.github.io/zq/ou"><li>欧曼系列</li></a>
-                        <a href="http://lanyuzq.github.io/zq/jie"><li>解放系列</li></a>
-                        <a href="http://lanyuzq.github.io/zq/other"><li>其它系列</li></a>
-                        <a href="http://lanyuzq.github.io/zq/vi"><li>视频</li></a>
-                        <a href="http://lanyuzq.github.io/zq/news"><li>活动新闻</li></a>
-                     </ul>
-                 </nav>
-          </header>
-
-          <section>
-                     <div id="tai"></div>
+---
+layout: base
+---
+   <div id="tai"></div>
    <div id="big">
-        <div id="close">&nbsp;关闭</div>
+     <div id="close">&nbsp;关闭</div>
    </div>
 
 <script>
@@ -37,7 +12,7 @@
 
         for(var i=1;i<22;i++){
           var oDiv=$("<div id='big"+i+"' class='im' style='float:left;background:#ffffff;'></div>");
-          var oImg=$("<img class='imgS' src='http://lanyuzq.github.io/zq/image/shan/big"+i+".jpg'/>");
+          var oImg=$("<img class='imgS' src='/zq/image/shan/big"+i+".jpg'/>");
           oDiv.append(oImg);
           oDiv.append(arr[i-1]);
           $('#tai').append(oDiv);
@@ -55,7 +30,7 @@
           $('.imgS').css('height',180*s);
           $('.im').click(function(){
               var g=$(this).attr('id');
-              var oImg=$("<img class='imgBig' src='http://lanyuzq.github.io/zq/image/shan/"+g+".jpg'/>");
+              var oImg=$("<img class='imgBig' src='/zq/image/shan/"+g+".jpg'/>");
               $('#big img').remove();
               $('#big').append(oImg);
               $('#big').css('width',900*s);
@@ -70,20 +45,7 @@
                 $('#big').hide();
                 $('.im').fadeTo(400,1.0);
           });
-
        })    
 
     </script>
-
-            <div id="clear"></div>
-          </section>
-
-          <footer>
-                 <span id="span1">地址：台安镇</span>
-                 <span id="span2">电话：4822224</span>
-          </footer>
-
-     </body>
-</html>
-
 

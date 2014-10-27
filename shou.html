@@ -1,37 +1,13 @@
-<!DOCTYPE html>
-<html>
-     <head>
-          <title>辽宁省鞍山市台安重型汽贸</title>
-          <meta charset="utf-8"/>
-          <meta name="Keywords" content="辽宁省鞍山市台安重型汽贸"/>
-          <meta name="Description" content="辽宁省鞍山市台安重型汽贸"/>
-          <script src="/zq/js/jquery-2.0.3.min.js"></script>
-          <script src="/zq/js/zhong.js"></script>
-          <link rel="stylesheet" href="/zq/css/zhong.css"/>
-     </head>
-     <body>
-          <header>
-                 <div id="name">台安重型汽贸</div>
-                 <nav>
-                     <ul>
-                        <a href="/zq/shou"><li>网站首页</li></a>
-                        <a href="/zq/shan"><li>陕汽系列</li></a>
-                        <a href="/zq/ou"><li>欧曼系列</li></a>
-                        <a href="/zq/jie"><li>解放系列</li></a>
-                        <a href="/zq/other"><li>其它系列</li></a>
-                        <a href="/zq/vi"><li>视频</li></a>
-                        <a href="/zq/news"><li>活动新闻</li></a>                 
-                     </ul>
-                 </nav>
-          </header>
-
-          <section>
-            <div id="div1"><img src="/zq/image/index/a.jpg"/></div>
-            <div id="div2"><img src="/zq/image/index/b.jpg"/></div>
-            <div id="div3"><img src="/zq/image/index/c.jpg"/></div>
+---
+layout: base
+---
+            <div id="div1"><img src="{{ site.url }}/image/index/a.jpg"/></div>
+            <div id="div2"><img src="{{ site.url }}/image/index/b.jpg"/></div>
+            <div id="div3"><img src="{{ site.url }}/image/index/c.jpg"/></div>
             <script>
               $(function(){
-                var w=$(window).width(),h=$(window).height()-119;
+                var w=$(window).width(),
+                        h=$(window).height()-119;
                 $('#div1,#div2,#div3').css('width',w);
                 $('#div1,#div2,#div3').css('height',h);
                 $('img').css('width',w);
@@ -39,13 +15,3 @@
               })
             </script>
 
-            <div id="clear"></div>
-          </section>
-
-          <footer>
-                 <span id="span1">地址：台安镇</span>
-                 <span id="span2">电话：4822224</span>
-          </footer> 
-
-     </body>
-</html>

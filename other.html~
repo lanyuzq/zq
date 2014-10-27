@@ -1,43 +1,19 @@
-<!DOCTYPE html>
-<html>
-     <head>
-          <title>辽宁省鞍山市台安重型汽贸</title>
-          <meta charset="utf-8"/>
-          <meta name="Keywords" content="辽宁省鞍山市台安重型汽贸"/>
-          <meta name="Description" content="辽宁省鞍山市台安重型汽贸"/>
-          <script src="http://lanyuzq.github.io/zq/js/jquery-2.0.3.min.js"></script>
-          <script src="http://lanyuzq.github.io/zq/js/zhong.js"></script>
-          <link rel="stylesheet" href="http://lanyuzq.github.io/zq/css/zhong.css"/>
-     </head>
-     <body>
-          <header>
-                 <div id="name">台安重型汽贸</div>
-                 <nav>
-                     <ul>
-                        <a href="http://lanyuzq.github.io/zq/shou"><li>网站首页</li></a>
-                        <a href="http://lanyuzq.github.io/zq/shan"><li>陕汽系列</li></a>
-                        <a href="http://lanyuzq.github.io/zq/ou"><li>欧曼系列</li></a>
-                        <a href="http://lanyuzq.github.io/zq/jie"><li>解放系列</li></a>
-                        <a href="http://lanyuzq.github.io/zq/other"><li>其它系列</li></a>
-                        <a href="http://lanyuzq.github.io/zq/vi"><li>视频</li></a>
-                        <a href="http://lanyuzq.github.io/zq/news"><li>活动新闻</li></a>   
-                     </ul>
-                 </nav>
-          </header>
+---
+layout: base
+---
 
-          <section>
-            <div id="tai"></div>
-            <div id="big">
-              <div id="close">&nbsp;关闭</div>
-            </div>
+  <div id="tai"></div>
+  <div id="big">
+    <div id="close">&nbsp;关闭</div>
+  </div>
 
    <script>
     $(function(){
-        var arr=new Array('台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸');
+        var arr=['台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸','台安重型汽贸'];
 
         for(var i=1;i<22;i++){
           var oDiv=$("<div id='big"+i+"' class='im' style='float:left;width:320px;height:215px;padding:5px;margin-left:16px;margin-top:16px;background:#ffffff;'></div>");
-          var oImg=$("<img src='http://lanyuzq.github.io/zq/image/other/s"+i+".jpg'/>");
+          var oImg=$("<img src='{{ site.url }}/image/other/s"+i+".jpg'/>");
           oDiv.append(oImg);
           oDiv.append(arr[i-1]);
           $('#tai').append(oDiv);
@@ -46,7 +22,7 @@
           $('#tai').append(cDiv);
           $('.im').click(function(){
             var g=$(this).attr('id');
-            var oImg=$("<img src='http://lanyuzq.github.io/zq/image/other/"+g+".jpg'/>");
+            var oImg=$("<img src='{{ site.url }}/image/other/"+g+".jpg'/>");
             $('#big img').remove();
             $('#big').append(oImg);
             $('#big').fadeIn(500);});
@@ -56,16 +32,6 @@
        })    
 
        </script>
-
-            <div id="clear"></div>
-          </section>
-
-          <footer>
-                 <span id="span1">地址：台安镇</span>
-                 <span id="span2">电话：4822224</span>
-          </footer>
-     </body>
-</html>
 
 
 
