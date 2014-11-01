@@ -89,7 +89,7 @@ ul a {color: #ffffff;}
 
 ul {
   float: left;
-  background: blue;
+  width: 498px;
   list-style-type: none;
 }
 
