@@ -8,7 +8,7 @@ body {
   text-align: center;
 }
 
-#tai,#lao {
+#tai {
   width: 1055px;
   margin-left: auto;
   margin-right: auto;
@@ -16,15 +16,16 @@ body {
   font-weight: 700;
 }
 
+#tai div {
+  float: left;
+  background: #ffffff;
+}
+
 #big {
-  border: solid 5px #ffffff;
+  border: 5px solid #ffffff;
   position: absolute;
-  width: 900px;
-  height: 506px;
   left: 50%;
   top: 50%;
-  margin-left: -450px;
-  margin-top: -253px;
   display: none;
   background: #ffffff;
   position: fixed;
@@ -39,16 +40,16 @@ body {
   background: #ffffff;
 }
 
-header{
+
+header {
   background: #2B1B16;
-  height: 37px;
-  padding-top: 38px;
+  height: 75px;
 }
 
 #name {
   float: left;
-  margin-left: 64px;
-  margin-top: -22px;
+  margin-left: 54px;
+  margin-top: 20px;
   height: 50px;
   color: #ffffff;
   font-size: 30px;
@@ -61,24 +62,24 @@ span {
 }
 
 nav {
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
+  margin-top: 36px;
+  margin-left: 200px;
   color: #ffffff;
   font-size: 14px;
-  width: 595px;
+  width: 398px;
   height: 30px;
 }
 
 #menu {
-  background: #E8E9E6;
-  font-size:14px;
-  height:45px;
+  background: #2B1B16;
+  font-size: 14px;
+  height: 75px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-ul a {
-  color: #ffffff;
-  text-decoration: none;
-}
+ul a {color: #ffffff;}
 
 #clear {
   border: 0;
@@ -90,31 +91,21 @@ ul {
   list-style-type: none;
 }
 
+ul a {
+  text-decoration: none;
+}
+
 ul li {
   float: left;
   margin-left: 20px;
 }
 
-#fan { margin-left: 40px; }
+#fan {margin-left: 40px;}
 
 #div1,#div2,#div3 {
-  width: 1364px;
-  height: 800px;
   margin-left: auto;
   margin-right: auto;
   display: none;
-}
-
-video {
-  margin-top: 25px;
-  margin-bottom: 30px;
-}
-
-footer {
-  background: #2B1B16;
-  height: 44px;
-  color: #ffffff;
-  line-height: 44px;
 }
 
 #span1 a {
@@ -122,12 +113,10 @@ footer {
   color: #ffffff;
 }
 
-#span2 { margin-left: 60px; }
+#span2 {margin-left: 60px;}
 
 #divUs {
   width: 800px;
-  height: 735px;
-  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -136,7 +125,20 @@ footer {
   line-height: 35px;
 }
 
+#divUs p { text-indent: 2em;}
 
+footer {
+  background: #2B1B16;
+  height: 44px;
+  color: #ffffff;
+  line-height: 44px;
+}
+
+#foot {
+  margin-left: auto;
+  margin-right: auto;
+  background: #2B1B16;
+}
 
 
 
