@@ -51,39 +51,39 @@ layout: base
        <p>台安重汽</p>
      </div>
      <div id="big13">
-       <img src="{{ site.url }}/image/shan/big12.jpg"/>
+       <img src="{{ site.url }}/image/shan/big13.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big14">
-       <img src="{{ site.url }}/image/shan/big12.jpg"/>
+       <img src="{{ site.url }}/image/shan/big14.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big15">
-       <img src="{{ site.url }}/image/shan/big12.jpg"/>
+       <img src="{{ site.url }}/image/shan/big15.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big16">
-       <img src="{{ site.url }}/image/shan/big12.jpg"/>
+       <img src="{{ site.url }}/image/shan/big16.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big17">
-       <img src="{{ site.url }}/image/shan/big12.jpg"/>
+       <img src="{{ site.url }}/image/shan/big17.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big18">
-       <img src="{{ site.url }}/image/shan/big12.jpg"/>
+       <img src="{{ site.url }}/image/shan/big18.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big19">
-       <img src="{{ site.url }}/image/shan/big12.jpg"/>
+       <img src="{{ site.url }}/image/shan/big19.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big20">
-       <img src="{{ site.url }}/image/shan/big12.jpg"/>
+       <img src="{{ site.url }}/image/shan/big20.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big21">
-       <img src="{{ site.url }}/image/shan/big12.jpg"/>
+       <img src="{{ site.url }}/image/shan/big21.jpg"/>
        <p>台安重汽</p>
      </div>
    </div>
