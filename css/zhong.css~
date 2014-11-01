@@ -123,10 +123,10 @@ ul li {
   text-align: left;
   font-size: 18px;
   color: black;
-  line-height: 35px;
+  height: 35px;
 }
 
-#divUs p { text-indent: 2em;}
+#divUs p { text-indent: 2em; }
 
 footer {
   background: #2B1B16;
