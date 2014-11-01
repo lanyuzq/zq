@@ -69,7 +69,6 @@ nav {
   font-size: 14px;
   width: 498px;
   height: 30px;
-  background: red;
 }
 
 #menu {
@@ -90,7 +89,6 @@ ul a {color: #ffffff;}
 ul {
   float: left;
   width: 498px;
-  background: blue;
   list-style-type: none;
 }
 
