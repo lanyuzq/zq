@@ -8,51 +8,47 @@ layout: base
        <p>台安重汽</p>
      </div>
      <div id="big2">
-       <img src="{{ site.url }}/image/fei/big2.jpg"/>
+       <img src="{{ site.url }}/image/ou/big2.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big3">
-       <img src="{{ site.url }}/image/fei/big3.jpg"/>
+       <img src="{{ site.url }}/image/ou/big3.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big4">
-       <img src="{{ site.url }}/image/fei/big4.jpg"/>
+       <img src="{{ site.url }}/image/ou/big4.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big5">
-       <img src="{{ site.url }}/image/fei/big5.jpg"/>
+       <img src="{{ site.url }}/image/ou/big5.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big6">
-       <img src="{{ site.url }}/image/fei/big6.jpg"/>
+       <img src="{{ site.url }}/image/ou/big6.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big7">
-       <img src="{{ site.url }}/image/fei/big7.jpg"/>
+       <img src="{{ site.url }}/image/ou/big7.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big8">
-       <img src="{{ site.url }}/image/fei/big8.jpg"/>
+       <img src="{{ site.url }}/image/ou/big8.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big9">
-       <img src="{{ site.url }}/image/fei/big9.jpg"/>
+       <img src="{{ site.url }}/image/ou/big9.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big10">
-       <img src="{{ site.url }}/image/fei/big10.jpg"/>
+       <img src="{{ site.url }}/image/ou/big10.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big11">
-       <img src="{{ site.url }}/image/fei/big11.jpg"/>
+       <img src="{{ site.url }}/image/ou/big11.jpg"/>
        <p>台安重汽</p>
      </div>
      <div id="big12">
-       <img src="{{ site.url }}/image/fei/big12.jpg"/>
-       <p>台安重汽</p>
-     </div>
-     <div id="big13">
-       <img src="{{ site.url }}/image/fei/big13.jpg"/>
+       <img src="{{ site.url }}/image/ou/big12.jpg"/>
        <p>台安重汽</p>
      </div>
    </div>
