@@ -69,6 +69,7 @@ nav {
   font-size: 14px;
   width: 398px;
   height: 30px;
+  background: red;
 }
 
 #menu {
