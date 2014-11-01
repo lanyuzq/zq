@@ -90,6 +90,7 @@ ul a {color: #ffffff;}
 ul {
   float: left;
   width: 498px;
+  background: blue;
   list-style-type: none;
 }
 
