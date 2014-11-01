@@ -67,7 +67,7 @@ nav {
   margin-left: 200px;
   color: #ffffff;
   font-size: 14px;
-  width: 398px;
+  width: 498px;
   height: 30px;
   background: red;
 }
@@ -89,6 +89,7 @@ ul a {color: #ffffff;}
 
 ul {
   float: left;
+  background: blue;
   list-style-type: none;
 }
 
